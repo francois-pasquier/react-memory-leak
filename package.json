@@ -13,7 +13,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --logHeapUsage",
+    "test:w1": "react-scripts test -w=1 --logHeapUsage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
