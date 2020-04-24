@@ -13,7 +13,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI = true react-scripts test --logHeapUsage",
+    "test": "CI=true react-scripts test --logHeapUsage",
     "test:w1": "CI=true react-scripts test -w=1 --logHeapUsage",
     "eject": "react-scripts eject"
   },
